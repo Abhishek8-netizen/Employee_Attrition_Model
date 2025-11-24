@@ -92,7 +92,7 @@ def logistic_regression(num):
 
     class_report_logistic = classification_report(y_test, y_pred, output_dict=True)
     classReportLogistic = pd.DataFrame(class_report_logistic).transpose()
-    print("\n📊 CLASSIFICATION REPORT:")
+    print("\nCLASSIFICATION REPORT:")
     print(classification_report(y_test, y_pred))
 
     if num==0:
@@ -168,16 +168,16 @@ def decision_tree():
     # ============================================
 
     acc_decision = accuracy_score(y_test, y_pred)
-    print("\n🌳 DECISION TREE ACCURACY:")
+    print("\nDECISION TREE ACCURACY:")
     print(accuracy_score(y_test, y_pred))
 
     conf_matrix_decision = confusion_matrix(y_test, y_pred)
-    print("\n📌 CONFUSION MATRIX:")
+    print("\nCONFUSION MATRIX:")
     print(confusion_matrix(y_test, y_pred))
 
     class_report_decision = classification_report(y_test, y_pred,output_dict=True)
     classReportDecision = pd.DataFrame(class_report_decision).transpose()
-    print("\n📊 CLASSIFICATION REPORT:")
+    print("\nCLASSIFICATION REPORT:")
     print(classification_report(y_test, y_pred))
 
     return(acc_decision,conf_matrix_decision,classReportDecision)
@@ -283,3 +283,4 @@ def predict_attrition(input_list):
 logistic_regression(0)
 print()
 decision_tree()
+
