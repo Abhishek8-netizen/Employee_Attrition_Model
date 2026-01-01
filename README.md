@@ -1,6 +1,6 @@
 # IBM Employee Attrition Prediction System
 
-## 📌 Project Overview
+## Project Overview
 
 This project is a **Machine Learning–powered Employee Attrition Prediction system** built using the IBM HR Analytics dataset. It combines **data cleaning, exploratory data analysis, ML models, evaluation metrics, and an interactive Streamlit web application** to help organizations understand and predict employee attrition.
 
@@ -15,24 +15,24 @@ The application allows users to:
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📂 Dataset upload & preprocessing
-* 🧹 Automated data cleaning & encoding
-* 📊 Interactive visualizations (bar charts, heatmaps, KDE plots, etc.)
-* 🤖 Machine Learning models:
+* Dataset upload & preprocessing
+* Automated data cleaning & encoding
+* Interactive visualizations (bar charts, heatmaps, KDE plots, etc.)
+* Machine Learning models:
 
   * Logistic Regression
   * Decision Tree
   * Random Forest (feature importance)
-* 📈 Model evaluation with accuracy, confusion matrix, ROC curve & AUC
-* 🔍 Insights on key attrition drivers
-* 🧠 Real-time employee attrition prediction
-* 🌐 Interactive Streamlit dashboard
+* Model evaluation with accuracy, confusion matrix, ROC curve & AUC
+* Insights on key attrition drivers
+* Real-time employee attrition prediction
+* Interactive Streamlit dashboard
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 1. **Data Cleaning**
 
@@ -67,7 +67,7 @@ The application allows users to:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Programming Language:** Python
 * **Libraries:**
@@ -81,7 +81,7 @@ The application allows users to:
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
 * **OverTime** is the strongest predictor of attrition
 * Employees with **lower income** show higher attrition rates
@@ -91,7 +91,7 @@ The application allows users to:
 
 ---
 
-## 📈 Model Performance (Sample)
+## Model Performance (Sample)
 
 * Logistic Regression Accuracy: ~77%
 * Strong recall for attrition class after SMOTE balancing
@@ -99,7 +99,7 @@ The application allows users to:
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and academic purposes.
 
