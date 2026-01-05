@@ -99,6 +99,12 @@ The application allows users to:
 
 ---
 
+## Streamlit App Link
+<a href="
+https://employeeattritionmodel-4ydjb9yfhahfpmegpvpbmo.streamlit.app/">Employee Attrition Model </a>
+
+---
+
 ## License
 
 This project is for educational and academic purposes.
